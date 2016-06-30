@@ -17,7 +17,7 @@ a post request:
 ```C++
 HttpRequest httpRequest;
 httpRequest.connect_server(string server_ip, int port)
-  .set_request_uri(string url)
+  	.set_request_uri(string url)
 	.set_header(string key, string value)
 	.post(string post_data);
 ```
