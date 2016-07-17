@@ -58,6 +58,8 @@ public:
 	// close the socket connection
 	int close_socket();
 
+	// store the request uri
+	std::string Request_Uri;
 	// store the request line detail
 	std::string Request_Line;
 	// store the request header info
